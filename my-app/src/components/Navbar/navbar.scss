@@ -4,8 +4,13 @@
 
 .navbar {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-shrink: 1;
+    max-height:100px;
 }
+
 
 .logo:hover {
     cursor: pointer;

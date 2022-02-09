@@ -1,0 +1,21 @@
+#root {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/466/407/659/planet-surface-alien-planet-outer-space-wallpaper-preview.jpg");
+background-repeat:no-repeat ;
+size: cover;
+background-size: cover;
+min-height: 100vh;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+.background {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+div {
+    flex-grow: 1;
+    min-height: fit-content;
+}
+}
+}

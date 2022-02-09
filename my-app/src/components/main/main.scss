@@ -1,0 +1,29 @@
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        color:white;
+    }
+
+    h2:hover {
+        cursor: pointer;
+    }
+
+    img {
+        width: 200px;
+    }
+    div {
+        position:relative;
+        p {
+            position:absolute;
+            color: white;
+            bottom : 0;
+            right: 0;
+        }   
+
+    }
+}
